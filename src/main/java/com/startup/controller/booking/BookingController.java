@@ -19,7 +19,11 @@ public class BookingController {
     @CrossOrigin(origins = "http://localhost:4200")
     public Booking create(@RequestBody Booking booking){
         Booking newBooking = BookingFactory.createBooking(booking.getMaintenanceId(),
+<<<<<<< Updated upstream
                 booking.getUser(),
+=======
+                booking.getUserId(),
+>>>>>>> Stashed changes
                 booking.getAddress(),
                 booking.getPhone());
         return bookingService.create(newBooking);

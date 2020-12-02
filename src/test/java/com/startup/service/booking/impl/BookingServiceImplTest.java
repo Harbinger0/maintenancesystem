@@ -48,7 +48,11 @@ public class BookingServiceImplTest {
     public void c_update(){
         Booking updated = new Booking.Builder().setBookingId("2221")
                 .setMaintenanceId("2222")
+<<<<<<< Updated upstream
                 .setUser("2223")
+=======
+                .setUserId("2223")
+>>>>>>> Stashed changes
                 .setAddress("2224")
                 .setPhone("2225")
                 .build();

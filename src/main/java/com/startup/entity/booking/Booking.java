@@ -11,7 +11,11 @@ public class Booking implements Serializable {
     @Id
     private String bookingId;
     private String maintenanceId;
+<<<<<<< Updated upstream
     private String user;
+=======
+    private String userId;
+>>>>>>> Stashed changes
     private String address;
     private String phone;
 
@@ -22,7 +26,11 @@ public class Booking implements Serializable {
     public Booking(Builder builder) {
         this.bookingId = builder.bookingId;
         this.maintenanceId = builder.maintenanceId;
+<<<<<<< Updated upstream
         this.user = builder.user;
+=======
+        this.userId = builder.userId;
+>>>>>>> Stashed changes
         this.address = builder.address;
         this.phone = builder.phone;
     }
@@ -35,8 +43,13 @@ public class Booking implements Serializable {
         return maintenanceId;
     }
 
+<<<<<<< Updated upstream
     public String getUser() {
         return user;
+=======
+    public String getUserId() {
+        return userId;
+>>>>>>> Stashed changes
     }
 
     public String getAddress() {
@@ -50,7 +63,11 @@ public class Booking implements Serializable {
     public static class Builder{
         private String bookingId;
         private String maintenanceId;
+<<<<<<< Updated upstream
         private String user;
+=======
+        private String userId;
+>>>>>>> Stashed changes
         private String address;
         private String phone;
 
@@ -64,8 +81,13 @@ public class Booking implements Serializable {
             return this;
         }
 
+<<<<<<< Updated upstream
         public Builder setUser(String user) {
             this.user = user;
+=======
+        public Builder setUserId(String userId) {
+            this.userId = userId;
+>>>>>>> Stashed changes
             return this;
         }
 
@@ -94,7 +116,11 @@ public class Booking implements Serializable {
         return "Booking{" +
                 "BookingId='" + bookingId + '\'' +
                 ", maintenanceId='" + maintenanceId + '\'' +
+<<<<<<< Updated upstream
                 ", user='" + user + '\'' +
+=======
+                ", userId='" + userId + '\'' +
+>>>>>>> Stashed changes
                 ", address='" + address + '\'' +
                 ", phone='" + phone + '\'' +
                 '}';

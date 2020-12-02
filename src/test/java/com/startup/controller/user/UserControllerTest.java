@@ -25,7 +25,8 @@ import static org.junit.Assert.*;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UserControllerTest {
 
-    private static User user = UserFactory.buildUser("Minenhle", "Ngwenya");
+    private static User user = UserFactory.buildUser("", "christ","Ngwenya"
+   , "123","christ");
     private static String  SECURITY_USERNAME = "user";
     private static String SECURITY_PASSWORD = "3585";
 

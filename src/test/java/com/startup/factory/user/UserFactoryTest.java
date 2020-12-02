@@ -9,7 +9,8 @@ public class UserFactoryTest {
 
     @Test
     public void buildUser() {
-        User user = UserFactory.buildUser("Golden", "Khumalo");
+        User user = UserFactory.buildUser("","Golden", "Khumalo","123",
+                "christ");
         Assert.assertNotNull(user.getUserId());
         System.out.println(user);
     }

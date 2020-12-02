@@ -25,7 +25,7 @@ import static org.junit.Assert.assertNotNull;
 public class MaintetnanceControllerTest {
 
     private static Maintenance maintenance = MaintenanceFactory.buildMaintenance("Christ",
-            "Nganga");
+            "Nganga","","","","633073758");
 
     private static String  SECURITY_USERNAME = "user";
     private static String SECURITY_PASSWORD = "3585";

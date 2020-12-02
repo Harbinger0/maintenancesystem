@@ -21,7 +21,8 @@ import static org.junit.Assert.*;
 public class UserServiceImplTest {
     @Autowired
     private UserService service;
-    private static User user = UserFactory.buildUser("Minenhle","Khumalo");
+    private static User user = UserFactory.buildUser("","Minenhle","Khumalo","123",
+            "christ");
 
     @Test
     public void d_getAll() {

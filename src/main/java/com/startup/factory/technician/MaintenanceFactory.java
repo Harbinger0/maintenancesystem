@@ -13,9 +13,14 @@ import static com.startup.util.Amr.generateId;
 
 public class MaintenanceFactory {
 
-    public static Maintenance buildMaintenance(String name, String lastname){
+    public static Maintenance buildMaintenance(String name, String lastname, String profession
+    , String emailm, String gender, String phonenumber){
         return new Maintenance.Builder().maintenanceId(generateId())
                 .name(name)
+                .phonenumber(phonenumber)
+                .emailm(emailm)
+                .gender(gender)
+                .profession(profession)
                 .lastname(lastname)
                 .build();
     }

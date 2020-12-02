@@ -46,7 +46,11 @@ public class ContactServiceImplTest {
 
     @Test
     public void c_update() {
-        Contact updated = new Contact.Builder().setPhone("0787894420").setEmail("contact23@gmail.com").setHomephone("0215523215").build();
+        Contact updated = new Contact.Builder()
+                .setPhone("0787894420")
+                .setEmail("contact23@gmail.com")
+                .setHomephone("0215523215")
+                .build();
         updated = service.update(updated);
         System.out.println("Updated: " + updated);
     }

@@ -1,7 +1,6 @@
 package com.startup.factory.contact;
 
 import com.startup.entity.contact.Contact;
-import com.startup.factory.contact.ContactFactory;
 import org.junit.Test;
 
 public class ContactFactoryTest {

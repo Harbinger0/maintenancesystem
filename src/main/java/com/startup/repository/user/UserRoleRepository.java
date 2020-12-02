@@ -1,5 +1,6 @@
 package com.startup.repository.user;
 
+import com.startup.entity.user.User;
 import com.startup.entity.user.UserRole;
 import com.startup.repository.IRepository;
 import org.springframework.data.jpa.repository.JpaRepository;

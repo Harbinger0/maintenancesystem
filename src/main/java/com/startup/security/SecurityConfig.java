@@ -7,6 +7,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 @Configuration
 @EnableWebSecurity
@@ -14,6 +15,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static final String USER_ROLE = "USER";
     private static final String ADMIN_ROLE = "ADMIN";
+
+
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**").allowedOrigins("http://localhost:4200");
+    }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {

@@ -19,7 +19,7 @@ public class MaintenanceServiceImplTest {
     @Autowired
     private MaintenanceService maintenanceService;
     private static Maintenance maintenance = MaintenanceFactory
-            .buildMaintenance("Christ","Nganga");
+            .buildMaintenance("Christ","Nganga","","","","633073758");
 
 
     @Test

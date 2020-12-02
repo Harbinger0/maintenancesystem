@@ -43,4 +43,12 @@ public class UserServiceImpl implements UserService {
     public Set<User> getAll() {
         return this.repository.findAll().stream().collect(Collectors.toSet());
     }
+
+    public User fetchUserByEmailId(String email){
+       return repository.findByEmailId(email);
+    }
+
+    public User fetchUserByEmailAndPassword(String email, String password){
+        return repository.findByEmailIdAndPassword(email,password);
+    }
 }

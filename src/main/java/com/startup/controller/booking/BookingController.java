@@ -1,5 +1,8 @@
 package com.startup.controller.booking;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 import com.startup.entity.booking.Booking;
 import com.startup.factory.booking.BookingFactory;
 import com.startup.service.booking.impl.BookingServiceImpl;
@@ -20,7 +23,11 @@ public class BookingController {
     public Booking create(@RequestBody Booking booking){
         Booking newBooking = BookingFactory.createBooking(booking.getMaintenanceId(),
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 booking.getUser(),
+=======
+                booking.getUserId(),
+>>>>>>> Stashed changes
 =======
                 booking.getUserId(),
 >>>>>>> Stashed changes
@@ -55,3 +62,7 @@ public class BookingController {
     }
 
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes

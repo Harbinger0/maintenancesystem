@@ -1,5 +1,8 @@
 package com.startup.entity.booking;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.io.Serializable;
@@ -12,7 +15,11 @@ public class Booking implements Serializable {
     private String bookingId;
     private String maintenanceId;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private String user;
+=======
+    private String userId;
+>>>>>>> Stashed changes
 =======
     private String userId;
 >>>>>>> Stashed changes
@@ -27,7 +34,11 @@ public class Booking implements Serializable {
         this.bookingId = builder.bookingId;
         this.maintenanceId = builder.maintenanceId;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         this.user = builder.user;
+=======
+        this.userId = builder.userId;
+>>>>>>> Stashed changes
 =======
         this.userId = builder.userId;
 >>>>>>> Stashed changes
@@ -44,8 +55,13 @@ public class Booking implements Serializable {
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public String getUser() {
         return user;
+=======
+    public String getUserId() {
+        return userId;
+>>>>>>> Stashed changes
 =======
     public String getUserId() {
         return userId;
@@ -64,7 +80,11 @@ public class Booking implements Serializable {
         private String bookingId;
         private String maintenanceId;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private String user;
+=======
+        private String userId;
+>>>>>>> Stashed changes
 =======
         private String userId;
 >>>>>>> Stashed changes
@@ -82,8 +102,13 @@ public class Booking implements Serializable {
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         public Builder setUser(String user) {
             this.user = user;
+=======
+        public Builder setUserId(String userId) {
+            this.userId = userId;
+>>>>>>> Stashed changes
 =======
         public Builder setUserId(String userId) {
             this.userId = userId;
@@ -117,7 +142,11 @@ public class Booking implements Serializable {
                 "BookingId='" + bookingId + '\'' +
                 ", maintenanceId='" + maintenanceId + '\'' +
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 ", user='" + user + '\'' +
+=======
+                ", userId='" + userId + '\'' +
+>>>>>>> Stashed changes
 =======
                 ", userId='" + userId + '\'' +
 >>>>>>> Stashed changes
@@ -139,4 +168,8 @@ public class Booking implements Serializable {
         return Objects.hash(bookingId);
     }
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

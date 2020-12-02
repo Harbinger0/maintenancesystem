@@ -65,7 +65,11 @@ public class BookingControllerTest {
         Booking updated = new Booking.Builder().setBookingId("2221")
                 .setMaintenanceId("2222")
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .setUser("2223")
+=======
+                .setUserId("2223")
+>>>>>>> Stashed changes
 =======
                 .setUserId("2223")
 >>>>>>> Stashed changes
